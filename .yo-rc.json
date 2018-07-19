@@ -1,0 +1,21 @@
+{
+  "generator-ngx-rocket": {
+    "version": "5.0.1",
+    "props": {
+      "location": "path",
+      "appName": "a6sk",
+      "target": [
+        "web"
+      ],
+      "pwa": true,
+      "ui": "material",
+      "layout": "simple",
+      "auth": true,
+      "lazy": false,
+      "angulartics": false,
+      "projectName": "a-6-sk",
+      "packageManager": "npm",
+      "mobile": []
+    }
+  }
+}
