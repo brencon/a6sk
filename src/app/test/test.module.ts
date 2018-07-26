@@ -4,8 +4,8 @@ import { TranslateModule } from '@ngx-translate/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { MaterialModule } from '@app/material.module';
-import { AboutRoutingModule } from './about-routing.module';
-import { AboutComponent } from './about.component';
+import { TestRoutingModule } from './test-routing.module';
+import { TestComponent } from './test.component';
 
 @NgModule({
   imports: [
@@ -13,10 +13,10 @@ import { AboutComponent } from './about.component';
     TranslateModule,
     FlexLayoutModule,
     MaterialModule,
-    AboutRoutingModule
+    TestRoutingModule
   ],
   declarations: [
-    AboutComponent
+    TestComponent
   ]
 })
-export class AboutModule { }
+export class TestModule { }
